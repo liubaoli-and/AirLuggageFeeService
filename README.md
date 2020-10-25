@@ -15,7 +15,7 @@
 
 2. Output specifications<br>
    The output parameter that can be obtained by calling feeCalculation function interface is “luggagefee”, which is of double type. The charging formula is as follows:<br>
-   luggagefee = (luggage-benchmark)*economicfee*0.015,
+   luggagefee = (luggage-benchmark)\*economicfee\*0.015,<br>
    In the above formula, “luggagefee” is the luggage fee that should be paid by the passenger. If the passenger’s luggage is within the over-limit range, “luggagefee”=0; the benchmark is the standard amount of excess luggage, and the system will determine the specific amount according to the passenger’s cabin class and identity benchmark. Specific as shown in the table.<br>
 
    Note: There is another special case that is not listed in the table. when the passenger is an international passenger and a student, benchmark value is equal to 30. Assume that all students hold economy class tickets.<br>
