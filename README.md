@@ -33,7 +33,7 @@
    According to the function of the program, 18 MRs are designed for the program. Because the value of economicfee in the program does not affect the program executed by the metamorphic relations, the value of economicfee is fixed to 1000 in the description of the MRs.<br>
 
 <table>
-<tr><td>序号</td>	<td>R</td>	<td>Rf</td></tr>
+<tr><td>No.</td>	<td>R</td>	<td>Rf</td></tr>
 <tr><td colspan="3"><center>1. airClass=0， isStudent=F，area=0~1，</center></td></tr>
 <tr><td>MR1</td>	<td>luggage_=luggage+1,(40<=luggage<200)</td>	<td>luggagefee_>luggagefee</td></tr>
 <tr><td>MR2</td>	<td>luggage_=2*luggage,(40<=luggage<100)</td>	<td>luggagefee_>=2*luggagefee</td></tr>
